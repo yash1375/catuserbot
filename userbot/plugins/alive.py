@@ -47,7 +47,6 @@ async def amireallyalive(event):
         A_IMG = list(CAT)
         PIC = random.choice(A_IMG)
         cat_caption = f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-        cat_caption += f"**{EMOJI} OwO**\n"
         cat_caption += f"**{EMOJI} My sempai like watching anime**\n"
         cat_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
         cat_caption += f"**{EMOJI} Neko Version :** `{catversion}`\n"
